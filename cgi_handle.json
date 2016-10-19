@@ -1,0 +1,7 @@
+{
+    "cgiTable": [
+        {"name": "login", "savingFlag": "TRUE", "lockFlag": "LOCK"},
+        {"name": "session_check"},
+        {"name": "session_delete", "lockFlag": "LOCK"}
+    ]
+}
