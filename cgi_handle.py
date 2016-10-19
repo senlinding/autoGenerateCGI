@@ -16,7 +16,7 @@ fileHeader = "/* Auto-generated files can not be modified ! */\n\n"
 
 def usage():
     print "cgi_handle.py usage:"
-    print "cgi_handle.py [json file]"
+    print "cgi_handle.py [--CGI_ENTRY_C_PATH=PATH] [--CGI_HANDLE_H_PATH=PATH] [--CGI_HANDLE_PATH=PATH] [json file]"
 
 def getJsonValue(line, name, defaultVal):
     start = line.find(name)
